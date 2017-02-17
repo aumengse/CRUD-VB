@@ -76,16 +76,16 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.Designer.vb">
+    <Compile Include="Forms\Form1.Designer.vb">
       <DependentUpon>frm_user.vb</DependentUpon>
     </Compile>
-    <Compile Include="frm_user.vb">
+    <Compile Include="Forms\frm_user.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_main.vb">
+    <Compile Include="Forms\frm_main.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_main.Designer.vb">
+    <Compile Include="Forms\frm_main.Designer.vb">
       <DependentUpon>frm_main.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
@@ -107,10 +107,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frm_main.resx">
+    <EmbeddedResource Include="Forms\frm_main.resx">
       <DependentUpon>frm_main.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_user.resx">
+    <EmbeddedResource Include="Forms\frm_user.resx">
       <DependentUpon>frm_user.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
